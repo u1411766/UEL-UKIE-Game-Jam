@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Moses_Scene.unity
+- path: Assets/Scenes/CW_3DTestScene.unity
   isLoaded: 1
   isActive: 1
