@@ -13,10 +13,15 @@ public class SM_EnemyController : MonoBehaviour
     [SerializeField] internal float fl_attackDistance;
     [SerializeField] internal float fl_attackSpeed;
 
+    [Header("Random Target")]
+    [SerializeField] internal int in_chosenTarget;
+    [SerializeField] internal bool bl_isRandomTarget;
+    [SerializeField] string st_playerTag;
+
     [Header("DO NOT EDIT!!!")]
     [SerializeField] float fl_attackTimer;
-    [SerializeField] string st_playerTag;
-    [SerializeField] NavMeshAgent nm_agent;
+    NavMeshAgent nm_agent;
+
     // Use this for initialization
     void Start()
     {
@@ -40,10 +45,18 @@ public class SM_EnemyController : MonoBehaviour
         }
 
         AttackPlayer();
+        if (bl_isRandomTarget)
+        {
+            FindRandomTarget();
+        }
     }
 
-    GameObject FindClosestPlayer()
+    void FindClosestPlayer()
     {
+        if (bl_isRandomTarget)
+        {
+            return;
+        }
         go_closestTarget = null;
 
         float distance = Mathf.Infinity;
@@ -58,7 +71,20 @@ public class SM_EnemyController : MonoBehaviour
                 distance = curDistance;
             }
         }
-        return go_closestTarget;
+    }
+
+    void FindRandomTarget()
+    {
+        foreach (GameObject go_player in go_players)
+        {
+            in_chosenTarget = Random.Range(0, go_players.Length);
+            go_closestTarget = go_players[in_chosenTarget];
+            if (go_closestTarget != null)
+            {
+                bl_isRandomTarget = false;
+            }
+        }
+        Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
     }
 
     void AttackPlayer()

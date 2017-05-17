@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -70,9 +67,6 @@
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
     </Reference>
@@ -81,9 +75,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrpits\HL_Scripts\HL_Camera_Movement.cs" />
+    <Compile Include="Assets\Scrpits\HL_Scripts\HL_NPC_Attack.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\SM_EnemyController.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\SM_EnemyHealth.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\SM_EnemySpawner.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\SM_EnemyTurretControll.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\SM_PlayerController.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\SM_PlayerHealth.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\SM_SpawnEnemies.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2013\UnityVS.CSharp.targets" />
 </Project>
