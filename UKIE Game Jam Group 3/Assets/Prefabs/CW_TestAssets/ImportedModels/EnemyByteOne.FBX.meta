@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: 28f3a45116c603846afdc9d49528cd3d
-timeCreated: 1495038653
+guid: ea220798d6a83b64f9c95b5b5541fa1b
+timeCreated: 1495032261
 licenseType: Pro
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: CharFrame
-    100002: CharSides
-    100004: //RootNode
-    400000: CharFrame
-    400002: CharSides
-    400004: //RootNode
-    2300000: CharFrame
-    2300002: CharSides
-    3300000: CharFrame
-    3300002: CharSides
-    4300000: CharFrame
-    4300002: CharSides
+    100000: //RootNode
+    100002: EnemyByteOne
+    100004: EnemyByteOneFrame
+    400000: //RootNode
+    400002: EnemyByteOne
+    400004: EnemyByteOneFrame
+    2300000: EnemyByteOne
+    2300002: EnemyByteOneFrame
+    3300000: EnemyByteOne
+    3300002: EnemyByteOneFrame
+    4300000: EnemyByteOneFrame
+    4300002: EnemyByteOne
     9500000: //RootNode
   materials:
     importMaterials: 1
