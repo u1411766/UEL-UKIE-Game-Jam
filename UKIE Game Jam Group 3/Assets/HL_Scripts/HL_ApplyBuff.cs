@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[SerializePrivateVariables]
 
+[SerializePrivateVariables]
 public class HL_ApplyBuff : MonoBehaviour
 {
     internal int int_buffsApplyed;

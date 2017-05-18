@@ -2,7 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-[SerializePrivateVariables]
+
+[PreferBinarySerialization]
 public class SM_PlayerController : MonoBehaviour
 {
     [Header("Player Setup")]
@@ -16,6 +17,8 @@ public class SM_PlayerController : MonoBehaviour
     [SerializeField] internal int in_attackDamage;
     [SerializeField] internal float fl_attackDistance;
     [SerializeField] internal float fl_attackSpeed;
+    [Range(0f, 10f)] internal int in_explosionRadius;
+    internal int in_aoeDamage;
 
     [Header("Random Target")]
     [SerializeField] internal int in_chosenTarget;
@@ -93,6 +96,23 @@ public class SM_PlayerController : MonoBehaviour
                 bl_isRandomTarget = false;
             }
             Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
+        }
+    }
+
+    void Detonate()
+    {
+        Vector3 explosionPos = transform.position;
+        Collider[] colliders = Physics.OverlapSphere(explosionPos, in_explosionRadius);
+
+        foreach (Collider collided in colliders)
+        {
+            SM_EnemyHealth health = collided.GetComponent<SM_EnemyHealth>();
+
+            Debug.Log(collided.name);
+            if (health != null && in_aoeDamage > 0)
+            {
+                enemyHealth.TakeDamage(in_aoeDamage);
+            }
         }
     }
 }

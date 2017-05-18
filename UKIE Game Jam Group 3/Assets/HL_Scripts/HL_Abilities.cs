@@ -1,9 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+
 [SerializePrivateVariables]
-
-
 public class HL_Abilities : MonoBehaviour {
 
     internal int int_MaxbuffPoints;

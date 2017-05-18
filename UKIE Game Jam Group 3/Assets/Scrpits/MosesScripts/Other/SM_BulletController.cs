@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+[PreferBinarySerialization]
 public class SM_BulletController : MonoBehaviour
 {
     internal float speed = 70f;
