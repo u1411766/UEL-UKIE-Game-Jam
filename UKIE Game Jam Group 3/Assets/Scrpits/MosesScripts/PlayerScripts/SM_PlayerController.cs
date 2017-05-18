@@ -9,10 +9,10 @@ public class SM_PlayerController : MonoBehaviour
     [SerializeField] internal GameObject go_closestTarget;
     [SerializeField] internal GameObject[] go_enemies;
 
-    [Header("Player Attack")] 
+    [Header("Player Attack")]
+    [SerializeField] internal int in_attackDamage;
     [SerializeField] internal float fl_attackDistance;
     [SerializeField] internal float fl_attackSpeed;
-    [SerializeField] internal int in_attackDamage;
 
     [Header("Random Target")]
     [SerializeField] internal int in_chosenTarget;
@@ -20,15 +20,16 @@ public class SM_PlayerController : MonoBehaviour
     [SerializeField] string st_enemyTag;
 
     [Header("DO NOT EDIT!!!")]
-    [SerializeField] float fl_attackTimer;
+    [SerializeField]internal float fl_attackTimer;
     NavMeshAgent nm_agent;
     SM_EnemyHealth enemyHealth;
-    bool bl_enemyInRange;
+    internal bool bl_enemyInRange;
+
     // Use this for initialization
-    void Start()
+    void Awake()
     {
         nm_agent = GetComponent<NavMeshAgent>();
-        enemyHealth = GetComponent<SM_EnemyHealth>();
+        //enemyHealth = GetComponent<SM_EnemyHealth>();
         nm_agent.stoppingDistance = fl_attackDistance; //stopping distance is equals attack distance
     }
 
@@ -38,6 +39,10 @@ public class SM_PlayerController : MonoBehaviour
         go_enemies = GameObject.FindGameObjectsWithTag(st_enemyTag);
 
         FindClosestEnemy();
+        if (nm_agent.enabled == false)
+        {
+            return;
+        }
         if (go_closestTarget != null)
         {
             nm_agent.destination = go_closestTarget.transform.position;
@@ -47,15 +52,14 @@ public class SM_PlayerController : MonoBehaviour
             nm_agent.destination = nm_agent.transform.position;
         }
 
-        AttackEnemy();
-
         if (bl_isRandomTarget)
         {
             FindRandomTarget();
         }
+
     }
 
-    GameObject FindClosestEnemy()
+    void FindClosestEnemy()
     {
         go_closestTarget = null;
 
@@ -71,7 +75,6 @@ public class SM_PlayerController : MonoBehaviour
                 distance = curDistance;
             }
         }
-        return go_closestTarget;
     }
 
     void FindRandomTarget()
@@ -86,24 +89,7 @@ public class SM_PlayerController : MonoBehaviour
             {
                 bl_isRandomTarget = false;
             }
-        }
-        Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
-    }
-
-    void AttackEnemy()
-    {
-        fl_attackTimer += Time.deltaTime; //increase timer
-
-        if (Vector3.Distance(nm_agent.destination, nm_agent.transform.position) <= fl_attackDistance) //if agant destination is less than attack distance
-        {
-            if (fl_attackTimer >= fl_attackSpeed && enemyHealth.in_currentHealth > 0) //if attack timer is more than or equal to attack intervals
-            {
-                fl_attackTimer = 0; //set attack timer to zero
-                if (enemyHealth.in_currentHealth > 0)
-                {
-                    enemyHealth.TakeDamage(in_attackDamage);
-                }
-            }
+            Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
         }
     }
 }

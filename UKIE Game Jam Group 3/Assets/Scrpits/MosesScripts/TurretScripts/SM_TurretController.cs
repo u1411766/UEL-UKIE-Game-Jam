@@ -2,20 +2,35 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class SM_EnemyTurretControll : MonoBehaviour
+[SerializePrivateVariables]
+public class SM_TurretController : MonoBehaviour
 {
     [Header("Turret Setup")]
-    [SerializeField] internal Transform t_target;
-    [SerializeField] internal GameObject go_closestTarget;
-    [SerializeField] internal GameObject[] go_targets;
-    [SerializeField] internal float fl_range = 15f;
-    [SerializeField] internal float fl_turnSpeed = 10f;
+    internal Transform t_target;
+    internal GameObject go_closestTarget;
+    internal GameObject[] go_targets;
+    internal float fl_range = 15f;
+    internal float fl_turnSpeed = 10f;
 
-    [SerializeField] internal string st_targetTag;
+    [Header("Turret Attack")]
+    internal GameObject go_bullet;
+    internal Transform t_barrel;
+    internal int in_attackDamage;
+    internal float fl_fireRate = 1f;
+
+
+
+    [Header("DO NOT EDIT!!!")]
+    internal float fl_fireCountdown = 0f;
+    internal string st_targetTag;
+    SM_BulletController bulletController;
     // Use this for initialization
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
+
+        bulletController = go_bullet.GetComponent<SM_BulletController>();
+        bulletController.in_damage = in_attackDamage;
     }
 
     // Update is called once per frame
@@ -24,6 +39,13 @@ public class SM_EnemyTurretControll : MonoBehaviour
         if (t_target == null)
             return;
         LockOnTarget();
+         
+        if (fl_fireCountdown <= 0f)
+        {
+            Shoot();
+            fl_fireCountdown = 1f / fl_fireRate;
+        }
+        fl_fireCountdown -= Time.deltaTime;
     }
 
     void UpdateTarget()
@@ -57,6 +79,14 @@ public class SM_EnemyTurretControll : MonoBehaviour
         Quaternion lookRotation = Quaternion.LookRotation(dir);
         Vector3 rotation = Quaternion.Lerp(transform.rotation, lookRotation, Time.deltaTime * fl_turnSpeed).eulerAngles;
         transform.rotation = Quaternion.Euler(0f, rotation.y, 0f);
+    }
+
+    void Shoot()
+    {
+        GameObject bulletGO =  Instantiate(go_bullet, t_barrel.position, t_barrel.rotation) as GameObject;
+
+        if (bulletController != null)
+            bulletController.Seek(t_target);
     }
 
     void OnDrawGizmosSelected()

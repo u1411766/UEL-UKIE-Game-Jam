@@ -10,6 +10,7 @@ public class SM_EnemyController : MonoBehaviour
     [SerializeField] internal GameObject[] go_players;
 
     [Header("Enemy Attack")]
+    [SerializeField] internal int in_attackDamage;
     [SerializeField] internal float fl_attackDistance;
     [SerializeField] internal float fl_attackSpeed;
 
@@ -19,7 +20,7 @@ public class SM_EnemyController : MonoBehaviour
     [SerializeField] string st_playerTag;
 
     [Header("DO NOT EDIT!!!")]
-    [SerializeField] float fl_attackTimer;
+    [SerializeField] internal float fl_attackTimer;
     NavMeshAgent nm_agent;
 
     // Use this for initialization
@@ -35,6 +36,10 @@ public class SM_EnemyController : MonoBehaviour
         go_players = GameObject.FindGameObjectsWithTag(st_playerTag);
 
         FindClosestPlayer();
+        if (nm_agent.enabled == false)
+        {
+            return;
+        }
         if (go_closestTarget != null)
         {
             nm_agent.destination = go_closestTarget.transform.position;
@@ -44,7 +49,6 @@ public class SM_EnemyController : MonoBehaviour
             nm_agent.destination = nm_agent.transform.position;
         }
 
-        AttackPlayer();
         if (bl_isRandomTarget)
         {
             FindRandomTarget();
@@ -85,18 +89,5 @@ public class SM_EnemyController : MonoBehaviour
             }
         }
         Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
-    }
-
-    void AttackPlayer()
-    {
-        fl_attackTimer += Time.deltaTime; //increase timer
-
-        if (Vector3.Distance(nm_agent.destination, nm_agent.transform.position) <= fl_attackDistance) //if agant destination is less than attack distance
-        {
-            if (fl_attackTimer >= fl_attackSpeed) //if attack timer is more than or equal to attack intervals
-            {
-                fl_attackTimer = 0; //set attack timer to zero
-            }
-        }
     }
 }
