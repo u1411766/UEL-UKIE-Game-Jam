@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/MS_Sourced/TornadoBanditsStudio/Low Poly Free Pack/Demo Scenes/Layout_Scene.unity
+  isLoaded: 1
+  isActive: 1
