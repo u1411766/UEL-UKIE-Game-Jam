@@ -4,3 +4,7 @@ UKIE Game Jam Group 3/Library/metadata/00/00000000000000005000000000000000
 *.dwlt
 *.dll
 *.suo
+*.dwlt
+*.asset
+*.dll
+*.log

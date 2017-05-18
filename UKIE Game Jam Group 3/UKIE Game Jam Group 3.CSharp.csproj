@@ -79,6 +79,7 @@
     <Compile Include="Assets\HL_Scripts\HL_Holder_Move.cs" />
     <Compile Include="Assets\HL_Scripts\UI Setup and Manager\HL_Points_Dsiplay.cs" />
     <Compile Include="Assets\Scrpits\CW_Scripts\CW_EpilepcyInduce.cs" />
+    <Compile Include="Assets\Scrpits\GameManager.cs" />
     <Compile Include="Assets\Scrpits\HL_Scripts\HL_Camera_Movement.cs" />
     <Compile Include="Assets\Scrpits\HL_Scripts\HL_NPC_Attack.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyController.cs" />

@@ -3,14 +3,19 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[SerializePrivateVariables]
 public class SM_PlayerHealth : MonoBehaviour 
 {
-    [SerializeField] internal int in_startingHealth;
+    internal int in_startingHealth;
     //[SerializeField] internal int in_scoreValue;
-    [SerializeField] internal float fl_sinkSpeed;
+    internal float fl_sinkSpeed;
+
+    [Header("Health regen")]
+    internal float fl_healthRegen = 5f; //when to start regeneration
+    internal int in_RegenRate = 5; //rate of regeneration
+    internal bool bl_isRegenHealth; //is health regenerating
 
     [Header("Not for Editing!!!")]
-    [SerializeField]
     internal int in_currentHealth;
 
     BoxCollider boxCollider;
@@ -31,6 +36,9 @@ public class SM_PlayerHealth : MonoBehaviour
         {
             transform.Translate(-Vector3.up * fl_sinkSpeed * Time.deltaTime);
         }
+
+        if (in_currentHealth != in_startingHealth && !bl_isRegenHealth) //if current health is not equal to max health and is not regenerating
+            StartCoroutine(RegainHealthOverTime()); //start coroutine
     }
 
     public void TakeDamage(int in_amount/*, Vector3 hitPoint*/)
@@ -61,5 +69,16 @@ public class SM_PlayerHealth : MonoBehaviour
         bl_isSinking = true;
 
         Destroy(gameObject, 2f);
+    }
+
+    private IEnumerator RegainHealthOverTime()
+    {
+        bl_isRegenHealth = true; //set health regen to true
+        while (in_currentHealth < in_startingHealth)
+        {
+            in_currentHealth += in_RegenRate; //increase current health by specified amount
+            yield return new WaitForSeconds(fl_healthRegen);
+        }
+        bl_isRegenHealth = false; //set health regen to false
     }
 }
