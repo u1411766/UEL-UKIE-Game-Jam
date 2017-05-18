@@ -76,6 +76,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\HL_Scripts\HL_Abilities.cs" />
+    <Compile Include="Assets\HL_Scripts\HL_ApplyBuff.cs" />
     <Compile Include="Assets\HL_Scripts\HL_Holder_Move.cs" />
     <Compile Include="Assets\HL_Scripts\UI Setup and Manager\HL_Points_Dsiplay.cs" />
     <Compile Include="Assets\Scrpits\CW_Scripts\CW_EpilepcyInduce.cs" />

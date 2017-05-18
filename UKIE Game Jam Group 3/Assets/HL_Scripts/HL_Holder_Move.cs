@@ -13,6 +13,8 @@ public class HL_Holder_Move : MonoBehaviour
     public float speed;
     public bool show_Portrait;
     public bool hide_portrait;
+
+    bool bl_move_panel;
     // Use this for initialization
     void Start()
     {
@@ -24,25 +26,29 @@ public class HL_Holder_Move : MonoBehaviour
     {
         rTrans = (RectTransform)transform.GetComponent<RectTransform>();
 
-
-
         //--
         // move till bool is false
         if (show_Portrait == true)
         {
             hide_portrait = false;
             transform.position = Vector2.Lerp(transform.position, NewTrans.position, speed / 150);
-
-
         }
 
         if (hide_portrait == true)
         {
-
-               
                 transform.position = Vector2.Lerp(transform.position, Start_rTrans.position, speed / 150);
 
         }
+        if(bl_move_panel)
+        {
+            transform.position = Vector2.Lerp(transform.position, NewTrans.position, speed / 150);
+        }
+        else if(bl_move_panel == false)
+        {
+            transform.position = Vector2.Lerp(transform.position, Start_rTrans.position, speed / 150);
+        }
+
+
     }
     void Show_portrait()
     {
@@ -53,5 +59,9 @@ public class HL_Holder_Move : MonoBehaviour
     {
         hide_portrait = true;
         show_Portrait = false;
+    }
+   public  void PanelHide()
+    {
+        bl_move_panel = !bl_move_panel;
     }
 }
