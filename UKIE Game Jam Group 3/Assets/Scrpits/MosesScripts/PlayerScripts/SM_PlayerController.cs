@@ -2,12 +2,15 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
-
+[SerializePrivateVariables]
 public class SM_PlayerController : MonoBehaviour
 {
     [Header("Player Setup")]
     [SerializeField] internal GameObject go_closestTarget;
     [SerializeField] internal GameObject[] go_enemies;
+
+    [Header("Movement")]
+    internal float fl_movementSpeed;
 
     [Header("Player Attack")]
     [SerializeField] internal int in_attackDamage;
@@ -29,7 +32,7 @@ public class SM_PlayerController : MonoBehaviour
     void Awake()
     {
         nm_agent = GetComponent<NavMeshAgent>();
-        //enemyHealth = GetComponent<SM_EnemyHealth>();
+        nm_agent.speed = fl_movementSpeed;
         nm_agent.stoppingDistance = fl_attackDistance; //stopping distance is equals attack distance
     }
 

@@ -75,6 +75,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrpits\CW_Scripts\CW_EpilepcyInduce.cs" />
     <Compile Include="Assets\Scrpits\HL_Scripts\HL_Camera_Movement.cs" />
     <Compile Include="Assets\Scrpits\HL_Scripts\HL_NPC_Attack.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyController.cs" />
@@ -82,6 +83,7 @@
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyShoot.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemySpawner.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_BulletController.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_Disco.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_SpawnEnemies.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\PlayerScripts\SM_PlayerController.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\PlayerScripts\SM_PlayerHealth.cs" />

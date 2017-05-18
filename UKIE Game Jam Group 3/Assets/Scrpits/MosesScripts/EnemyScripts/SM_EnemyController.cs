@@ -3,11 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+[SerializePrivateVariables]
 public class SM_EnemyController : MonoBehaviour 
 {
     [Header("Enemy Setup")]
     [SerializeField] internal GameObject go_closestTarget;
     [SerializeField] internal GameObject[] go_players;
+
+    [Header("Movement")]
+    internal float fl_movementSpeed;
 
     [Header("Enemy Attack")]
     [SerializeField] internal int in_attackDamage;
@@ -27,6 +31,7 @@ public class SM_EnemyController : MonoBehaviour
     void Start()
     {
         nm_agent = GetComponent<NavMeshAgent>();
+        nm_agent.speed = fl_movementSpeed;
         nm_agent.stoppingDistance = fl_attackDistance; //stopping distance is equals attack distance
     }
 
