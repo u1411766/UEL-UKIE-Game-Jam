@@ -1,4 +1,8 @@
 sceneSetups:
+<<<<<<< HEAD
 - path: Assets/Scenes/AndyUITest.unity
+=======
+- path: Assets/Scenes/Moses_Scene.unity
+>>>>>>> 417d4c265d7aed3c42fe1472c3fa4d109e08b200
   isLoaded: 1
   isActive: 1
