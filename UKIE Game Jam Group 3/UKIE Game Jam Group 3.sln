@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKIE Game Jam Group 3.CSharp", "UKIE Game Jam Group 3.CSharp.csproj", "{5EEAB024-D8D3-BA6B-14D5-B1B89725AA9D}"
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UKIE Game Jam Group 3", "UKIE Game Jam Group 3.csproj", "{6742032D-42E6-F9D4-A917-A6D753FA8A4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -9,10 +9,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{5EEAB024-D8D3-BA6B-14D5-B1B89725AA9D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5EEAB024-D8D3-BA6B-14D5-B1B89725AA9D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5EEAB024-D8D3-BA6B-14D5-B1B89725AA9D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5EEAB024-D8D3-BA6B-14D5-B1B89725AA9D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6742032D-42E6-F9D4-A917-A6D753FA8A4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6742032D-42E6-F9D4-A917-A6D753FA8A4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6742032D-42E6-F9D4-A917-A6D753FA8A4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6742032D-42E6-F9D4-A917-A6D753FA8A4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

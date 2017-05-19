@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 [SerializePrivateVariables]
 public class SM_EnemyShoot : MonoBehaviour

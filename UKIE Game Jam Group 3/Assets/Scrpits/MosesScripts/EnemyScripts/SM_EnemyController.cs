@@ -93,6 +93,6 @@ public class SM_EnemyController : MonoBehaviour
                 bl_isRandomTarget = false;
             }
         }
-        Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
+        //Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
     }
 }

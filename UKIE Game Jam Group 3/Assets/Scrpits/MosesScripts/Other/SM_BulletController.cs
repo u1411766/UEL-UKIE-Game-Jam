@@ -5,7 +5,7 @@ using UnityEngine;
 [PreferBinarySerialization]
 public class SM_BulletController : MonoBehaviour
 {
-    internal float speed = 70f;
+    internal float speed = 50f;
     internal int in_damage;
     internal Transform target;
 
@@ -40,7 +40,6 @@ public class SM_BulletController : MonoBehaviour
 
     void HitTarget()
     {
-
         playerHealth = target.GetComponent<SM_PlayerHealth>();
         if (playerHealth != null)
         {

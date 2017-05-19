@@ -51,7 +51,7 @@ public class SM_SpawnEnemies : MonoBehaviour
 
     void DoneSpawning()
     {
-        if (in_MaxEnemySpawn == in_NumberofEnemies)
+        if (in_MaxEnemySpawn == in_NumberofEnemies && !bl_infinite)
         {
             bl_isDoneSpawning = true;
         }

@@ -36,9 +36,6 @@ public class SM_PlayerHealth : MonoBehaviour
         {
             transform.Translate(-Vector3.up * fl_sinkSpeed * Time.deltaTime);
         }
-
-        if (in_currentHealth != in_startingHealth && !bl_isRegenHealth) //if current health is not equal to max health and is not regenerating
-            StartCoroutine(RegainHealthOverTime()); //start coroutine
     }
 
     public void TakeDamage(int in_amount/*, Vector3 hitPoint*/)
@@ -71,14 +68,14 @@ public class SM_PlayerHealth : MonoBehaviour
         Destroy(gameObject, 2f);
     }
 
-    private IEnumerator RegainHealthOverTime()
-    {
-        bl_isRegenHealth = true; //set health regen to true
-        while (in_currentHealth < in_startingHealth)
-        {
-            in_currentHealth += in_RegenRate; //increase current health by specified amount
-            yield return new WaitForSeconds(fl_healthRegen);
-        }
-        bl_isRegenHealth = false; //set health regen to false
-    }
+    //private IEnumerator RegainHealthOverTime()
+    //{
+    //    bl_isRegenHealth = true; //set health regen to true
+    //    while (in_currentHealth < in_startingHealth)
+    //    {
+    //        in_currentHealth += in_RegenRate; //increase current health by specified amount
+    //        yield return new WaitForSeconds(fl_healthRegen);
+    //    }
+    //    bl_isRegenHealth = false; //set health regen to false
+    //}
 }

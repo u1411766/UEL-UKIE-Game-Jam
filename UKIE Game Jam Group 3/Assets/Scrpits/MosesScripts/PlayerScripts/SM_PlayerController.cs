@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[PreferBinarySerialization]
+[SelectionBase]
 public class SM_PlayerController : MonoBehaviour
 {
     [Header("Player Setup")]
@@ -11,7 +11,7 @@ public class SM_PlayerController : MonoBehaviour
     [SerializeField] internal GameObject[] go_enemies;
 
     [Header("Movement")]
-    internal float fl_movementSpeed;
+    internal float fl_movementSpeed = 3.5f;
 
     [Header("Player Attack")]
     [SerializeField] internal int in_attackDamage;
@@ -31,12 +31,15 @@ public class SM_PlayerController : MonoBehaviour
     SM_EnemyHealth enemyHealth;
     internal bool bl_enemyInRange;
 
+    internal int in_curAttackDamage;
+
     // Use this for initialization
     void Awake()
     {
         nm_agent = GetComponent<NavMeshAgent>();
         nm_agent.speed = fl_movementSpeed;
         nm_agent.stoppingDistance = fl_attackDistance; //stopping distance is equals attack distance
+        in_curAttackDamage = in_attackDamage;
     }
 
     // Update is called once per frame
@@ -62,7 +65,6 @@ public class SM_PlayerController : MonoBehaviour
         {
             FindRandomTarget();
         }
-
     }
 
     void FindClosestEnemy()
@@ -95,11 +97,11 @@ public class SM_PlayerController : MonoBehaviour
             {
                 bl_isRandomTarget = false;
             }
-            Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
+            //Debug.Log(transform.gameObject.name + " choose " + go_closestTarget.name);
         }
     }
 
-    void Detonate()
+    internal void AOEDamage()
     {
         Vector3 explosionPos = transform.position;
         Collider[] colliders = Physics.OverlapSphere(explosionPos, in_explosionRadius);

@@ -41,6 +41,7 @@ public class SM_EnemyHealth : MonoBehaviour
 
         if (in_currentHealth <= 0)
         {
+            SM_GameManager.in_totalScore += in_scoreValue;
             Death();
         }
     }
