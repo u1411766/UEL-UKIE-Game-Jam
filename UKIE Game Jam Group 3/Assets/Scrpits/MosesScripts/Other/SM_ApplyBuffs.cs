@@ -98,6 +98,6 @@ public class SM_ApplyBuffs : MonoBehaviour
         {
             target.GetComponent<SM_PlayerHealth>().in_currentHealth += target.GetComponent<SM_PlayerHealth>().in_RegenRate; //increase current health by specified amount
         }
-        yield return null;
+        yield return new WaitForSeconds(1.2f);
     }
 }
