@@ -1,17 +1,17 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-[SerializePrivateVariables]
+
 public class SM_UIManager : MonoBehaviour
 {
-    Text tx_NortySurvived;
-    Text tx_KrispySurvived;
-    Text tx_McLatteSurvived;
+    public Text tx_NortySurvived;
+    public Text tx_KrispySurvived;
+    public Text tx_McLatteSurvived;
 
-    Text tx_GameSpeed;
-    Text tx_PlayerScore;
-    Text tx_CountDownClock;
-    Text tx_LivesLeft;
+    public Text tx_GameSpeed;
+    public Text tx_PlayerScore;
+    public Text tx_CountDownClock;
+    public Text tx_LivesLeft;
 
     SM_GameManager _gameManager;
     // Use this for initialization

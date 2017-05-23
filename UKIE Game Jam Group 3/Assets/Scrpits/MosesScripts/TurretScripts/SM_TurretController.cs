@@ -2,35 +2,43 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+
 public class SM_TurretController : MonoBehaviour
 {
     [Header("Turret Setup")]
-    internal Transform t_target;
-    internal GameObject go_closestTarget;
-    internal GameObject[] go_targets;
-    internal float fl_range = 15f;
-    internal float fl_turnSpeed = 10f;
+    public Transform t_target;
+    public GameObject go_closestTarget;
+    public GameObject[] go_targets;
+    public float fl_range = 15f;
+    public float fl_turnSpeed = 10f;
 
     [Header("Turret Attack")]
-    internal GameObject go_bullet;
-    internal Transform t_barrel;
-    internal int in_attackDamage;
-    internal float fl_fireRate = 1f;
-
-
+    public GameObject go_bullet;
+    public Transform t_barrel;
+    public int in_attackDamage;
+    public float fl_fireRate = 1f;
 
     [Header("DO NOT EDIT!!!")]
-    internal float fl_fireCountdown = 0f;
-    internal string st_targetTag;
+    public float fl_fireCountdown = 0f;
+    public string st_targetTag;
     SM_BulletController bulletController;
+    SM_PlayerBullet playerBulletController;
+
+    public bool bl_isEnemyTurret;
     // Use this for initialization
     void Start()
     {
         InvokeRepeating("UpdateTarget", 0f, 0.5f);
-
-        bulletController = go_bullet.GetComponent<SM_BulletController>();
-        bulletController.in_damage = in_attackDamage;
+        if (bl_isEnemyTurret)
+        {
+            bulletController = go_bullet.GetComponent<SM_BulletController>();
+            bulletController.in_damage = in_attackDamage;
+        }
+        else
+        {
+            playerBulletController = go_bullet.GetComponent<SM_PlayerBullet>();
+            playerBulletController.in_damage = in_attackDamage;
+        }
     }
 
     // Update is called once per frame
@@ -83,10 +91,19 @@ public class SM_TurretController : MonoBehaviour
 
     void Shoot()
     {
-        GameObject bulletGO =  Instantiate(go_bullet, t_barrel.position, t_barrel.rotation) as GameObject;
+        Instantiate(go_bullet, t_barrel.position, t_barrel.rotation);
 
-        if (bulletController != null)
-            bulletController.Seek(t_target);
+        if (bl_isEnemyTurret)
+        {
+            if (bulletController != null)
+                bulletController.Seek(t_target);
+        }
+        else
+        {
+            if (playerBulletController != null)
+                playerBulletController.Seek(t_target);
+        }
+
     }
 
     void OnDrawGizmosSelected()

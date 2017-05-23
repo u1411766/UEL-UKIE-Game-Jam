@@ -2,20 +2,20 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+
 public class SM_Disco : MonoBehaviour 
 {
-    GameObject go_chosenFloor;
-    int selectedFloor;
+    public GameObject go_chosenFloor;
+    public int selectedFloor;
 
-    Material materialOne;
-    Material materialTwo;
-    float fl_timetoChange;
+    public Material materialOne;
+    public Material materialTwo;
+    public float fl_timetoChange;
 
     [Header("Don't Edit")]
     float timer = 2f;
-    string objectTag;
-    GameObject[] go_floors;
+    public string objectTag;
+    public GameObject[] go_floors;
     // Use this for initialization 
     void Start()
     {

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[SerializePrivateVariables]
+
 public class SM_EnemyController : MonoBehaviour 
 {
     [Header("Enemy Setup")]
@@ -11,7 +11,7 @@ public class SM_EnemyController : MonoBehaviour
     [SerializeField] internal GameObject[] go_players;
 
     [Header("Movement")]
-    internal float fl_movementSpeed;
+    [SerializeField] internal float fl_movementSpeed;
 
     [Header("Enemy Attack")]
     [SerializeField] internal int in_attackDamage;

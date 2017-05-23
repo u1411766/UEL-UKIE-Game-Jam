@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[SelectionBase]
+
 public class SM_PlayerController : MonoBehaviour
 {
     [Header("Player Setup")]

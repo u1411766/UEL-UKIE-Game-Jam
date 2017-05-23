@@ -1,7 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-[SerializePrivateVariables]
+
 public class SM_SpawnEnemies : MonoBehaviour
 {
     public GameObject[] go_Enemy;
@@ -9,7 +9,7 @@ public class SM_SpawnEnemies : MonoBehaviour
     [SerializeField] internal int in_EnemyKilled;
     [SerializeField] [Range(0, 100)] internal int in_MaxEnemySpawn;
     [SerializeField] [Range(0f, 30f)] internal float fl_SpawnTime = 5f;
-    [Range(0f, 30f)] internal float fl_spawnDelay = 10;
+    [SerializeField] [Range(0f, 30f)] internal float fl_spawnDelay = 10;
     [SerializeField] internal Transform[] SpawnPoints;
 
 

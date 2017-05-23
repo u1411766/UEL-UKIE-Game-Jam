@@ -2,19 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+
 public class SM_ApplyBuffs : MonoBehaviour
 {
     [Header("Setup")]
-    GameObject target;
-    int in_target;
+    public GameObject target;
+    public int in_target;
 
     [Header("Timers and Cooldowns")]
-    float fl_abilityTimer;
-    float fl_buffTimer;
+    public float fl_abilityTimer;
+    public float fl_buffTimer;
 
     [Header("Buffs")]
-    int in_damageBuff;
+    public int in_damageBuff;
 
     bool bl_isCoolingdown = true;
     float fl_abilityCooldown;

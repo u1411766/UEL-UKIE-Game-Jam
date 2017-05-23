@@ -2,13 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+
 public class SM_SpawnPlayers : MonoBehaviour
 {
-    GameObject Norty;
-    GameObject Krispy;
-    GameObject McLatte;
-    Transform t_spawnPoint;
+    public GameObject Norty;
+    public GameObject Krispy;
+    public GameObject McLatte;
+    public Transform t_spawnPoint;
     // Use this for initialization
     void Start()
     {
@@ -18,7 +18,7 @@ public class SM_SpawnPlayers : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        ButtonSpawn();
     }
 
     public void SpawnNorty()
@@ -34,5 +34,21 @@ public class SM_SpawnPlayers : MonoBehaviour
     public void SpawnMcLatte()
     {
         Instantiate(McLatte, t_spawnPoint.position, t_spawnPoint.rotation);
+    }
+
+    void ButtonSpawn()
+    {
+        if (Input.GetKeyDown(KeyCode.N))
+        {
+            Instantiate(Norty, t_spawnPoint.position, t_spawnPoint.rotation);
+        }
+        if (Input.GetKeyDown(KeyCode.K))
+        {
+            Instantiate(Krispy, t_spawnPoint.position, t_spawnPoint.rotation);
+        }
+        if (Input.GetKeyDown(KeyCode.M))
+        {
+            Instantiate(McLatte, t_spawnPoint.position, t_spawnPoint.rotation);
+        }
     }
 }

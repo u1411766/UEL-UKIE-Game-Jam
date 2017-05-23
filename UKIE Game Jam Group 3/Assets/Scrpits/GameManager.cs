@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+
 public class GameManager : MonoBehaviour 
 {
     GameObject go_closestSpawnPoint;

@@ -17,3 +17,5 @@ UKIE Game Jam Group 3/Library/metadata/00/00000000000000003000000000000000
 *.mdb
 *.log
 UKIE Game Jam Group 3/Library/assetDatabase3
+*.bin
+*.info

@@ -3,20 +3,20 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
-[SerializePrivateVariables]
+
 public class SM_PlayerHealth : MonoBehaviour 
 {
-    internal int in_startingHealth;
+    [SerializeField] internal int in_startingHealth = 100;
     //[SerializeField] internal int in_scoreValue;
-    internal float fl_sinkSpeed;
+    [SerializeField] internal float fl_sinkSpeed = 2.5f;
 
     [Header("Health regen")]
-    internal float fl_healthRegen = 5f; //when to start regeneration
-    internal int in_RegenRate = 5; //rate of regeneration
-    internal bool bl_isRegenHealth; //is health regenerating
+    [SerializeField] internal float fl_healthRegen = 5f; //when to start regeneration
+    [SerializeField] internal int in_RegenRate = 5; //rate of regeneration
+    [SerializeField] internal bool bl_isRegenHealth; //is health regenerating
 
     [Header("Not for Editing!!!")]
-    internal int in_currentHealth;
+    [SerializeField] internal int in_currentHealth;
 
     BoxCollider boxCollider;
     bool bl_isDead;

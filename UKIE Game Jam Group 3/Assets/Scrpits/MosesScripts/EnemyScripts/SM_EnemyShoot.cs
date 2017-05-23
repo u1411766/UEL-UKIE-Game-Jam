@@ -1,18 +1,18 @@
 ﻿using UnityEngine;
 using UnityEngine.AI;
-[SerializePrivateVariables]
+
 public class SM_EnemyShoot : MonoBehaviour
 {
-    Ray shootRay = new Ray();
-    RaycastHit shootHit;
-    int shootableMask;
-    ParticleSystem gunParticles;
-    LineRenderer gunLine;
-    AudioSource gunAudio;
-    Light gunLight;
+    internal Ray shootRay = new Ray();
+    internal RaycastHit shootHit;
+    internal int shootableMask;
+    internal ParticleSystem gunParticles;
+    internal LineRenderer gunLine;
+    internal AudioSource gunAudio;
+    internal Light gunLight;
     public Light faceLight;
-    float effectsDesplayTime = 0.2f;
-    int offset = -1;
+    internal float effectsDesplayTime = 0.2f;
+    internal int offset = -1;
 
     NavMeshAgent nm_agent;
     SM_EnemyController enemyController;

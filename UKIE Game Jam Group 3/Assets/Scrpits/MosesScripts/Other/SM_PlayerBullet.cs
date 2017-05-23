@@ -2,14 +2,13 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+public class SM_PlayerBullet : MonoBehaviour {
 
-public class SM_BulletController : MonoBehaviour
-{
     public float speed = 50f;
     public int in_damage;
     public Transform target;
 
-    SM_PlayerHealth playerHealth;
+    SM_EnemyHealth enemyHealth;
     SM_TurretController damage;
     // Use this for initialization
     void Start()
@@ -40,16 +39,16 @@ public class SM_BulletController : MonoBehaviour
 
     void HitTarget()
     {
-        playerHealth = target.GetComponent<SM_PlayerHealth>();
-        if (playerHealth != null)
+        enemyHealth = target.GetComponent<SM_EnemyHealth>();
+        if (enemyHealth != null)
         {
-            playerHealth.TakeDamage(in_damage);
+            enemyHealth.TakeDamage(in_damage);
             Destroy(gameObject);
         }
         Debug.Log(gameObject.name + " Hit " + target.name);
     }
 
-    public void Seek (Transform _target)
+    public void Seek(Transform _target)
     {
         target = _target;
     }

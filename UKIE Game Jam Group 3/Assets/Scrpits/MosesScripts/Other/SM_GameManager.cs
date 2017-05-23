@@ -2,12 +2,12 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[SerializePrivateVariables]
+
 public class SM_GameManager : MonoBehaviour
 {
-    internal float fl_setTimer;
-    internal bool bl_isCountDown;
-    internal int in_setLives;
+    public float fl_setTimer;
+    public bool bl_isCountDown;
+    public int in_setLives;
 
     internal static int in_totalScore;
     internal static int in_NortySaved;
