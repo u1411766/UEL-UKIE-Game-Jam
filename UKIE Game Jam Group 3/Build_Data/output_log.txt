@@ -1,0 +1,3496 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     2019 MB
+    Driver:   22.21.13.8205
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+- Completed reload, in  0.041 seconds
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Moses\Documents\GitHub\UEL-UKIE-Game-Jam\UKIE Game Jam Group 3\Build_Data\Managed\System.dll (this message is harmless)
+desktop: 1920x1080 60Hz; virtual: 1920x1080 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+<RI> Initialized touch support.
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/sharedassets0.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/sharedassets0.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 214)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/sharedassets0.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/sharedassets0.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/sharedassets0.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 214)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/sharedassets0.assets' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+The file 'C:/Users/Moses/Documents/GitHub/UEL-UKIE-Game-Jam/UKIE Game Jam Group 3/Build_Data/level0' is corrupted! Remove it and launch unity again!
+[Position out of bounds!]
+ 
+(Filename:  Line: 220)
+
+UnloadTime: 1.220192 ms
+UnityException: Invoke repeat rate has to be larger than 0.00001F)
+  at (wrapper managed-to-native) UnityEngine.MonoBehaviour:InvokeRepeating (string,single,single)
+  at SM_SpawnEnemies.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_TurretController.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_Disco.Start () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 3a8 -> priority: 1 
+  Thread -> id: 430c -> priority: 1 
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnityException: Tag:  is not defined.
+  at (wrapper managed-to-native) UnityEngine.GameObject:FindGameObjectsWithTag (string)
+  at SM_TurretController.UpdateTarget () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at SM_UIManager.Timer () [0x00000] in <filename unknown>:0 
+  at SM_UIManager.Update () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
