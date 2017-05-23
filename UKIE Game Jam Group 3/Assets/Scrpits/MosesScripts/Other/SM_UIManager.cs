@@ -44,7 +44,7 @@ public class SM_UIManager : MonoBehaviour
         else if (!_gameManager.bl_isCountDown)
         {
             int minutes = Mathf.FloorToInt(SM_GameManager.fl_timeLeft / 60);
-            int seconds = Mathf.FloorToInt(SM_GameManager.fl_timeLeft + minutes * 60);
+            int seconds = Mathf.FloorToInt(SM_GameManager.fl_timeLeft - minutes * 60);
             tx_CountDownClock.text = string.Format("{0:00} : {1:00}", minutes, seconds);
         }
     }
