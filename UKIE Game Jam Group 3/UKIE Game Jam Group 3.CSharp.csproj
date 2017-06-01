@@ -52,9 +52,6 @@
     <Reference Include="UnityEngine">
       <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.Advertisements">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Advertisements.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -69,9 +66,6 @@
     </Reference>
     <Reference Include="UnityEngine.HoloLens">
       <HintPath>Library\UnityAssemblies\UnityEngine.HoloLens.dll</HintPath>
-    </Reference>
-    <Reference Include="UnityEngine.Purchasing">
-      <HintPath>Library\UnityAssemblies\UnityEngine.Purchasing.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.VR">
       <HintPath>Library\UnityAssemblies\UnityEngine.VR.dll</HintPath>
@@ -90,12 +84,19 @@
     <Compile Include="Assets\Scrpits\HL_Scripts\HL_Camera_Movement.cs" />
     <Compile Include="Assets\Scrpits\HL_Scripts\HL_NPC_Attack.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyController.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyExit.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyHealth.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyShoot.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemySpawner.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_ApplyBuffs.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_BulletController.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_Disco.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_GameManager.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_PlayerBullet.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_PlayerExit.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_SpawnEnemies.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_SpawnPlayers.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_UIManager.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\PlayerScripts\SM_PlayerController.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\PlayerScripts\SM_PlayerHealth.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\PlayerScripts\SM_PlayerShoot.cs" />
