@@ -17,8 +17,8 @@ public class SM_PlayerController : MonoBehaviour
     [SerializeField] internal int in_attackDamage;
     [SerializeField] internal float fl_attackDistance;
     [SerializeField] internal float fl_attackSpeed;
-    [Range(0f, 10f)] internal int in_explosionRadius;
-    internal int in_aoeDamage;
+    [SerializeField] [Range(0f, 10f)] internal int in_explosionRadius;
+    [SerializeField] internal int in_aoeDamage;
 
     [Header("Random Target")]
     [SerializeField] internal int in_chosenTarget;
@@ -28,11 +28,8 @@ public class SM_PlayerController : MonoBehaviour
     [Header("DO NOT EDIT!!!")]
     [SerializeField]internal float fl_attackTimer;
     NavMeshAgent nm_agent;
-    SM_EnemyHealth enemyHealth;
     internal bool bl_enemyInRange;
-
-    internal int in_curAttackDamage;
-
+    [SerializeField] internal int in_curAttackDamage;
     // Use this for initialization
     void Awake()
     {
@@ -108,10 +105,10 @@ public class SM_PlayerController : MonoBehaviour
 
         foreach (Collider collided in colliders)
         {
-            SM_EnemyHealth health = collided.GetComponent<SM_EnemyHealth>();
+            SM_EnemyHealth enemyHealth = collided.GetComponent<SM_EnemyHealth>();
 
             Debug.Log(collided.name);
-            if (health != null && in_aoeDamage > 0)
+            if (enemyHealth != null)
             {
                 enemyHealth.TakeDamage(in_aoeDamage);
             }

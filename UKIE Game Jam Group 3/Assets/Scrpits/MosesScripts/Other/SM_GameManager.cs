@@ -15,12 +15,14 @@ public class SM_GameManager : MonoBehaviour
     internal static int in_McLatteSaved;
     internal static int in_LivesLeft;
     internal static float fl_timeLeft;
+    internal static int in_gameSpeed = 1;
 
     // Use this for initialization
     void Awake()
     {
         in_LivesLeft = in_setLives;
         fl_timeLeft = fl_setTimer;
+        in_gameSpeed = (int)Time.timeScale;
     }
 
     // Update is called once per frame
@@ -32,23 +34,36 @@ public class SM_GameManager : MonoBehaviour
 
     void ControllTime()
     {
-        if (Input.GetKeyDown(KeyCode.F) && Time.timeScale <= 4)
+        if (Input.GetKeyDown(KeyCode.F) && in_gameSpeed <= 4)
         {
-            if (Time.timeScale >= 1)
-            {
-                Time.timeScale++;
-            }
+            in_gameSpeed += 1;
         }
-        if (Input.GetKeyDown(KeyCode.G))
+        if (Input.GetKeyDown(KeyCode.G) && in_gameSpeed > 1)
         {
-            if (Time.timeScale <= 1)
-            {
+            in_gameSpeed -= 1;
+        }
+        GameTime();
+    }
+
+    void GameTime()
+    {
+        switch (in_gameSpeed)
+        {
+            case 1:
                 Time.timeScale = 1;
-            }
-            else
-            {
-                Time.timeScale--;
-            }
+                break;
+            case 2:
+                Time.timeScale = 2;
+                break;
+            case 3:
+                Time.timeScale = 3;
+                break;
+            case 4:
+                Time.timeScale = 4;
+                break;
+            case 5:
+                Time.timeScale = 5;
+                break;
         }
     }
 
@@ -61,6 +76,6 @@ public class SM_GameManager : MonoBehaviour
         else if (!bl_isCountDown)
         {
             fl_timeLeft += Time.deltaTime;
-        }        
+        }
     }
 }

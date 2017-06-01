@@ -12,12 +12,16 @@ public class SM_UIManager : MonoBehaviour
     public Text tx_PlayerScore;
     public Text tx_CountDownClock;
     public Text tx_LivesLeft;
+    public Text tx_PlayerSelected;
+    public Text tx_AbilityCooldown;
 
     SM_GameManager _gameManager;
+    SM_ApplyBuffs targetPlayer;
     // Use this for initialization
     void Start()
     {
-        _gameManager = GameObject.FindObjectOfType<SM_GameManager>();
+        _gameManager = FindObjectOfType<SM_GameManager>();
+        targetPlayer = GameObject.Find("GameManager").GetComponent<SM_ApplyBuffs>();
     }
 
     // Update is called once per frame
@@ -29,8 +33,22 @@ public class SM_UIManager : MonoBehaviour
         tx_KrispySurvived.text = SM_GameManager.in_KrispySaved.ToString() + " Survived";
         tx_McLatteSurvived.text = SM_GameManager.in_McLatteSaved.ToString() + " Survived";
 
-        tx_GameSpeed.text = "Game Speed: x" + Time.timeScale.ToString();
+        tx_GameSpeed.text = "Game Speed: x" + SM_GameManager.in_gameSpeed;
         tx_PlayerScore.text = "Score: " + SM_GameManager.in_totalScore.ToString();
+        if (targetPlayer.target == null)
+        {
+            return;
+        }
+        tx_PlayerSelected.text = targetPlayer.target.gameObject.name + "\n" + "Selected";
+
+        if (targetPlayer.bl_isCoolingdown == false)
+        {
+            tx_AbilityCooldown.text = "Ability Ready";
+        }
+        else
+        {
+            tx_AbilityCooldown.text = "Ability Not Ready";
+        }
     }
 
     void Timer()
@@ -44,7 +62,7 @@ public class SM_UIManager : MonoBehaviour
         else if (!_gameManager.bl_isCountDown)
         {
             int minutes = Mathf.FloorToInt(SM_GameManager.fl_timeLeft / 60);
-            int seconds = Mathf.FloorToInt(SM_GameManager.fl_timeLeft + minutes * 60);
+            int seconds = Mathf.FloorToInt(SM_GameManager.fl_timeLeft - minutes * 60);
             tx_CountDownClock.text = string.Format("{0:00} : {1:00}", minutes, seconds);
         }
     }

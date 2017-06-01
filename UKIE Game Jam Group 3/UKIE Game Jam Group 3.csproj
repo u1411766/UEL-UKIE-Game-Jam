@@ -89,7 +89,9 @@
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemyShoot.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\EnemyScripts\SM_EnemySpawner.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_ApplyBuffs.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_BuffLight.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_BulletController.cs" />
+    <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_ButtonController.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_Disco.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_GameManager.cs" />
     <Compile Include="Assets\Scrpits\MosesScripts\Other\SM_PlayerBullet.cs" />

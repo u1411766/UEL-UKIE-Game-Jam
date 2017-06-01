@@ -16,22 +16,21 @@ public class SM_ApplyBuffs : MonoBehaviour
     [Header("Buffs")]
     public int in_damageBuff;
 
-    bool bl_isCoolingdown = true;
-    float fl_abilityCooldown;
-    float fl_buffCooldown;
-    bool bl_buffActive = false;
-    SM_PlayerController _players;
+    [SerializeField] internal bool bl_isCoolingdown = true;
+    [SerializeField] float fl_abilityCooldown;
+    [SerializeField] float fl_buffCooldown;
+    [SerializeField] internal bool bl_buffActive = false;
+
     SM_PlayerHealth _playersHealth;
-    GameObject[] players;
+    [SerializeField] internal GameObject[] players;
     // Use this for initialization
     void Start()
     {
-        _players = GetComponent<SM_PlayerController>();
         fl_buffCooldown = fl_buffTimer;
     }
 
     // Update is called once per frame
-    void Update()
+    void LateUpdate()
     {
         players = GameObject.FindGameObjectsWithTag("Player");
         PlayerBuffs();
@@ -43,6 +42,7 @@ public class SM_ApplyBuffs : MonoBehaviour
             {
                 bl_buffActive = false;
                 fl_buffCooldown = fl_buffTimer;
+                target.GetComponent<SM_BuffLight>().buffLight.enabled = false;
                 target.GetComponent<SM_PlayerController>().in_attackDamage = target.GetComponent<SM_PlayerController>().in_curAttackDamage;
             }
         }
@@ -63,27 +63,31 @@ public class SM_ApplyBuffs : MonoBehaviour
             {
                 in_target = Random.Range(0, players.Length);
                 target = players[in_target];
+                target.GetComponent<SM_BuffLight>().selectLight.enabled = true;
+                player.GetComponent<SM_BuffLight>().selectLight.enabled = false;
             }
-            if (Input.GetKeyDown(KeyCode.Alpha1) && !bl_isCoolingdown) //damage buff
+            if (Input.GetKeyDown(KeyCode.T) && !bl_isCoolingdown) //damage buff
             {
                 bl_buffActive = true;
-                target.GetComponent<SM_PlayerController>().in_attackDamage = in_damageBuff;
+                target.GetComponent<SM_PlayerController>().in_attackDamage += (in_damageBuff);
+                target.GetComponent<SM_BuffLight>().buffLight.enabled = true;
                 fl_abilityCooldown = 0;
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha2) && !bl_isCoolingdown)
+            if (Input.GetKeyDown(KeyCode.Y) && !bl_isCoolingdown)
             {
                 bl_buffActive = true;
-                StartCoroutine(RegainHealthOverTime());
+                target.GetComponent<SM_BuffLight>().buffLight.enabled = true;
+                target.GetComponent<SM_PlayerController>().AOEDamage();
                 fl_abilityCooldown = 0;
             }
 
-            if (Input.GetKeyDown(KeyCode.Alpha3) && !bl_isCoolingdown)
-            {
-                bl_buffActive = true;
-                _players.AOEDamage();
-                fl_abilityCooldown = 0;
-            }
+            //if (Input.GetKeyDown(KeyCode.Alpha3) && !bl_isCoolingdown)
+            //{
+            //    bl_buffActive = true;
+            //    StartCoroutine(RegainHealthOverTime());
+            //    fl_abilityCooldown = 0;
+            //}
         }
     }
 
