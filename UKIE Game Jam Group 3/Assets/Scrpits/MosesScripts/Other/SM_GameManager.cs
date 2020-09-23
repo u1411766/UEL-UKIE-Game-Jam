@@ -34,13 +34,13 @@ public class SM_GameManager : MonoBehaviour
 
     void ControllTime()
     {
-        if (Input.GetKeyDown(KeyCode.F) && in_gameSpeed <= 4)
+        if (Input.GetKeyDown(KeyCode.G) && in_gameSpeed <= 4)
         {
-            in_gameSpeed += 1;
+            in_gameSpeed++;
         }
-        if (Input.GetKeyDown(KeyCode.G) && in_gameSpeed > 1)
+        if (Input.GetKeyDown(KeyCode.F) && in_gameSpeed > 1)
         {
-            in_gameSpeed -= 1;
+            in_gameSpeed--;
         }
         GameTime();
     }

@@ -19,7 +19,7 @@ public class SM_PlayerHealth : MonoBehaviour
     [SerializeField] internal int in_currentHealth;
 
     BoxCollider boxCollider;
-    bool bl_isDead;
+    internal bool bl_isDead;
     bool bl_isSinking;
     // Use this for initialization
     void Awake()

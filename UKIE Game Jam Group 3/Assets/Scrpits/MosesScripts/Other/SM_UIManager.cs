@@ -49,6 +49,11 @@ public class SM_UIManager : MonoBehaviour
         {
             tx_AbilityCooldown.text = "Ability Not Ready";
         }
+
+        if (targetPlayer.bl_buffActive)
+        {
+            tx_AbilityCooldown.text = "Ability Active";
+        }
     }
 
     void Timer()
